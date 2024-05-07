@@ -20,6 +20,10 @@ public class AccountPage extends Base {
     public static String editPasswordBTN = "change-pw-btn";
     public static String logout = "testLogout";
 
+
+
+
+
     public static void FailToChangePWD() {
         Assert.assertTrue(driver.findElement(By.id(strOldPassword)).isDisplayed());
         Assert.assertTrue(driver.findElement(By.id(strNewPassword)).isDisplayed());
